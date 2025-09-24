@@ -1,0 +1,46 @@
+body{
+  padding: 2rem;
+}
+
+form{
+  background-color: rgb(248, 203, 226);
+  border: pink solid 1px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: .75rem;
+}
+header{
+  background-color: rgb(251, 174, 253);
+  border:  pink solid 1px;
+  padding: 1rem;
+}
+h1,h2{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(239, 71, 127);
+}
+#botonSuma,#botonSubtrair,#botonResto,#botonPotencia,#botonMultiplicar,#botonDividir {
+  color: rgb(70, 5, 70);
+  background-color: rgb(220, 165, 220);
+  border-radius: 1rem;
+  border: rgb(89, 36, 89) 1px solid;
+}
+
+#resultadoFinal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#totalFinal{
+  margin-top: 1rem;
+}
+label{
+  color: rgb(103, 21, 103);
+}
+input{
+  background-color: rgb(252, 216, 255);
+  border: none;
+}
