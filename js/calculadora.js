@@ -73,3 +73,7 @@ potenciaButton.addEventListener("click", () => {
   result.value = total2;
 });
 
+
+function resetForm() {
+  document.getElementById("reset").reset();
+}

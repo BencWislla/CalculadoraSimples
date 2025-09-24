@@ -22,7 +22,7 @@ h1,h2{
   font-family:'Times New Roman', Times, serif;
   color: rgb(239, 71, 127);
 }
-#botonSuma,#botonSubtrair,#botonResto,#botonPotencia,#botonMultiplicar,#botonDividir {
+#botonSuma,#botonSubtrair,#botonResto,#botonPotencia,#botonMultiplicar,#botonDividir,#reset {
   color: rgb(70, 5, 70);
   background-color: rgb(220, 165, 220);
   border-radius: 1rem;
