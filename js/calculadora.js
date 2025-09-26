@@ -20,12 +20,8 @@ dividirButton.addEventListener("click", () => {
   let result = document.querySelector("#resultadoDividir")
 
   let total = parseInt(number1) / parseInt(number2)
-  let total2 = parseInt(number1) * parseInt(number2)
-  let total1 = parseInt(number1) - parseInt(number2)
-
   result.value = total;
-  result.value = total2;
-  result.value = total1;
+
 });
 let multiplicarButton = document.getElementById("botonMultiplicar")
 
